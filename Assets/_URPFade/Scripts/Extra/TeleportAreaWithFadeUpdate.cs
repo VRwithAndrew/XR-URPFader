@@ -5,6 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TeleportAreaWithFadeUpdate : TeleportationArea
 {
+    /*
     public ScreenFade screenFade = null;
 
     protected override void OnSelectEntered(SelectEnterEventArgs args)
@@ -51,4 +52,5 @@ public class TeleportAreaWithFadeUpdate : TeleportationArea
         if (!screenFade)
             screenFade = FindObjectOfType<ScreenFade>();
     }
+    */
 }
